@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExMachinaParlor - Hackerspace</title>
+    <link rel="stylesheet" href="Ex-Mac-CSS.css" />
+</head>
+<body>
+<!-- LOADER OVERLAY -->
+<div id="loader">
+    <div id="container">
+        <div id="scanlines"></div>
+        <div id="ui-frame">
+            <h1 id="typed-text"></h1>
+            <div id="loading-bar">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+            </div>
+            <div id="status">
+                <p>CONNECTING</p>
+                <p id="connected"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FIXED HEADER WITH GLITCH EFFECT & GITHUB LINK -->
+<header class="main-header">
+    <div class="glitch-wrapper">
+        <h1 class="site-title">
+            <span class="glitch" data-text="Ex Machina Parlor">Ex Machina Parlor</span>
+        </h1>
+    </div>
+    <div class="location fade-in">
+        <p>319 N 11th St Room 501<br>Philadelphia, PA 19107</p>
+    </div>
+    <p class="hackerspace-desc fade-in">
+        Local Philly Hackerspace<br>
+        Freaks, Geeks, Weirdos, and Hackers of all kinds are welcome
+    </p>
+    <nav>
+        <a href="#" id="nav-home" class="active">Home</a>
+        <a href="#" id="nav-about">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Events</a>
+        <!-- When clicked, the GitHub link triggers the loader then opens GitHub -->
+        <a href="#" id="nav-github">The Ex Machina Parlor GitHub</a>
+    </nav>
+</header>
+
+<!-- NAV DOTS FOR SECTION NAVIGATION -->
+<div class="nav-dots">
+    <div class="nav-dot active" data-section="1"></div>
+    <div class="nav-dot" data-section="2"></div>
+    <div class="nav-dot" data-section="3"></div>
+</div>
+
+<!-- MAIN CONTENT: THREE PARALLAX SECTIONS -->
+<div id="main-content">
+    <!-- Section 1: Header Parallax -->
+    <section class="parallax-container" id="section1">
+        <div class="parallax-bg header-parallax"></div>
+        <div class="content">
+            <h2 class="glow">We Conduct Experiments That</h2>
+            <h2 class="glow">May or May Not Seriously</h2>
+            <h2 class="glow">Test the Limits of Edge Technology</h2>
+        </div>
+        <div class="scroll-down">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+            </svg>
+        </div>
+    </section>
+
+    <!-- Section 2: Info -->
+    <section class="parallax-container" id="section2">
+        <div class="parallax-bg second-parallax"></div>
+        <div class="content">
+            <h2>The Second Thing</h2>
+            <p>We are a small and local hackerspace located in the heart of Philadelphia. We are always looking for new members and are open to anyone interested in cyber security, whether you're a beginner or an expert.</p>
+        </div>
+        <div class="scroll-down">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+            </svg>
+        </div>
+    </section>
+
+    <!-- Section 3: Connect & Social Links -->
+    <section class="parallax-container" id="section3">
+        <div class="parallax-bg third-parallax"></div>
+        <div class="content">
+            <h2>Connect With Us</h2>
+            <p>We operate on a member subscription basis and are always looking for new members to join our community. Please feel free to reach out if you have any questions or would like to join our group.</p>
+            <div class="social-links">
+                <a href="https://instagram.com/ExMachinaParlor" class="social-btn instagram" target="_blank">
+                    <span>@ExMachinaParlor</span>
+                </a>
+                <a href="https://bsky.social/@ExMachinaParlor" class="social-btn bsky" target="_blank">
+                    <span>@ExMachinaParlor.bsky.social</span>
+                </a>
+                <a href="https://patreon.com/ExMachinaParlor" class="social-btn patreon" target="_blank">
+                    <span>patreon.com/ExMachinaParlor</span>
+                </a>
+                <a href="https://vimeo.com/ExMachinaParlor" class="social-btn vimeo" target="_blank">
+                    <span>@ExMachinaParlor</span>
+                </a>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- ABOUT CONTENT (Hidden by default) -->
+<div id="about-content">
+    <header>
+        <div class="glitch-wrapper">
+            <h1 class="site-title">
+                <span class="glitch" data-text="Ex Machina Parlor">Ex Machina Parlor</span>
+            </h1>
+        </div>
+        <h2 class="subheading">Cogito . Ergo . Sum</h2>
+        <h2 class="about-title">About Us</h2>
+        <nav>
+            <a href="#" id="nav-about-home">Home</a>
+        </nav>
+    </header>
+    <section class="about-section">
+        <p>
+            At the Ex Machina Parlor, we welcome individuals from all backgrounds who have a passion for technology,
+            whether you’re a seasoned hacker, a complete science enthusiast, or simply someone curious about cybersecurity
+            and emerging tech.
+        </p>
+        <p>
+            We are a dynamic community focused on advancing knowledge in technology, cybersecurity, and the future of the internet.
+            We provide a platform for invention, collaboration, and innovation, adhering to a strong ethical framework.
+            While we support technological exploration, we emphasize that all activities must align with legal and ethical standards.
+        </p>
+        <p>
+            We do not endorse illegal activities and are not responsible for the misuse of any information or technology
+            shared through our platform.
+        </p>
+    </section>
+    <footer>
+        <p>Ex Machina Parlor © 2025. All systems operational.</p>
+    </footer>
+</div>
+
+<script src="Ex-Mac-JS.js"></script>
+</body>
+</html>

@@ -28,7 +28,7 @@
     </div>
 </div>
 
-<!-- FIXED HEADER WITH GLITCH EFFECT & GITHUB LINK -->
+<!-- I NEED TO FIX GLITCH EFFECT -->
 <header class="main-header">
     <div class="glitch-wrapper">
         <h1 class="site-title">
@@ -42,12 +42,14 @@
         Local Philly Hackerspace<br>
         Freaks, Geeks, Weirdos, and Hackers of all kinds are welcome
     </p>
+
+    <!-- NAVAGATION BUTTONS -->
     <nav>
         <a href="#" id="nav-home" class="active">Home</a>
         <a href="#" id="nav-about">About</a>
-        <a href="#">Projects</a>
-        <a href="#">Events</a>
-        <!-- When clicked, the GitHub link triggers the loader then opens GitHub -->
+        <a href="#" id="nav-projects">Projects</a>
+        <a href="#" id="nav-events">Events</a>
+        <a href="#" id="nav-cyberpunk">Become a Cyberpunk</a>
         <a href="#" id="nav-github">The Ex Machina Parlor GitHub</a>
     </nav>
 </header>
@@ -97,16 +99,16 @@
             <h2>Connect With Us</h2>
             <p>We operate on a member subscription basis and are always looking for new members to join our community. Please feel free to reach out if you have any questions or would like to join our group.</p>
             <div class="social-links">
-                <a href="https://instagram.com/ExMachinaParlor" class="social-btn instagram" target="_blank">
+                <a href="https://www.instagram.com/exmachinaparlor?igsh=Ym1nNXR2ZGtzbGs3" class="social-btn instagram" target="_blank">
                     <span>@ExMachinaParlor</span>
                 </a>
-                <a href="https://bsky.social/@ExMachinaParlor" class="social-btn bsky" target="_blank">
+                <a href="https://bsky.app/profile/exmachinaparlor.bsky.social" class="social-btn bsky" target="_blank">
                     <span>@ExMachinaParlor.bsky.social</span>
                 </a>
-                <a href="https://patreon.com/ExMachinaParlor" class="social-btn patreon" target="_blank">
+                <a href="https://www.patreon.com/ExMachinaParlor" class="social-btn patreon" target="_blank">
                     <span>patreon.com/ExMachinaParlor</span>
                 </a>
-                <a href="https://vimeo.com/ExMachinaParlor" class="social-btn vimeo" target="_blank">
+                <a href="https://account.venmo.com/u/ExMachinaParlor" class="social-btn vimeo" target="_blank">
                     <span>@ExMachinaParlor</span>
                 </a>
             </div>
@@ -114,36 +116,450 @@
     </section>
 </div>
 
-<!-- ABOUT CONTENT (Hidden by default) -->
-<div id="about-content">
+<!-- CYBERPUNK SECTION CONTENT -->
+<div id="cyberpunk-content">
     <header>
-        <div class="glitch-wrapper">
+        <div class="page-title-container">
             <h1 class="site-title">
                 <span class="glitch" data-text="Ex Machina Parlor">Ex Machina Parlor</span>
             </h1>
+            <h2 class="subheading">Technology . Freedom . Privacy</h2>
+            <h2 class="cyberpunk-page-title">Become a Cyberpunk</h2>
+            <nav>
+                <a href="#" id="nav-cyberpunk-home">Home</a>
+            </nav>
         </div>
-        <h2 class="subheading">Cogito . Ergo . Sum</h2>
-        <h2 class="about-title">About Us</h2>
-        <nav>
-            <a href="#" id="nav-about-home">Home</a>
-        </nav>
     </header>
-    <section class="about-section">
-        <p>
+
+    <!-- CYBERPUNK PANEL (main cyberpunk page content) -->
+    <div class="cyberpunk-container">
+        <h2 class="cyberpunk-title">Wanna Become a Cyberpunk?</h2>
+
+        <p class="cyberpunk-intro">
+            We directly support multiple local and national organizations such as <span class="highlight"><a href="https://toogl.us/">Toogl</a></span>
+            and <span class="highlight"><a href="https://www.eff.org/">Electronic Frontier Foundation</a></span>
+        </p>
+
+        <p class="cyberpunk-intro">
+            <span class="highlight"><a href="https://defcon215.org/">DEFCON215</a></span>, <span class="highlight"><a href="#">Raices Cyber</a></span>, and other local Philadelphia makerspaces.
+        </p>
+
+        <p class="cyberpunk-intro">
+            We are also an Electronic Frontier Alliance Member.
+        </p>
+
+        <p class="cyberpunk-intro">
+            As a member organization of the <span class="highlight"><a href="https://efa.eff.org/">Electronic Frontier Alliance (EFA)</a></span>, we believe
+            that technology should support the intellectual freedom at the core of a
+            democratic society. In the digital age, that entails advancing:
+        </p>
+
+        <ul class="cyberpunk-list">
+            <li><span class="principle">Free Expression:</span> People should be able to speak their minds to whoever will listen.</li>
+            <li><span class="principle">Security:</span> Technology should be trustworthy and answer to its users.</li>
+            <li><span class="principle">Privacy:</span> Technology should allow private and anonymous speech, and allow users to set their own parameters about what to share with whom.</li>
+            <li><span class="principle">Creativity:</span> Technology should promote progress by allowing people to build on the ideas, creations, and inventions of others.</li>
+            <li><span class="principle">Access to Knowledge:</span> Curiosity should be rewarded, not stifled. We uphold these principles by fighting for transparency and freedom in culture, code, and law.</li>
+        </ul>
+    </div>
+
+    <!-- Additional cyberpunk content sections -->
+    <div class="cyberpunk-container">
+        <h2 class="cyberpunk-title">Our Cyberpunk Manifesto</h2>
+        <div class="cyberpunk-grid">
+            <div class="cyberpunk-grid-item">
+                <div class="cyberpunk-icon">🔒</div>
+                <h3>Privacy First</h3>
+                <p>We believe your data belongs to you. Period. We advocate for strong encryption, privacy-respecting technology, and the right to anonymous speech.</p>
+            </div>
+            <div class="cyberpunk-grid-item">
+                <div class="cyberpunk-icon">🌐</div>
+                <h3>Open Internet</h3>
+                <p>We fight for an open, decentralized internet free from corporate and government control. Net neutrality and internet freedom are core to our mission.</p>
+            </div>
+            <div class="cyberpunk-grid-item">
+                <div class="cyberpunk-icon">🛠️</div>
+                <h3>DIY Culture</h3>
+                <p>Don't just consume technology - understand it, modify it, create it. We support a culture of making, hacking, and learning through doing.</p>
+            </div>
+            <div class="cyberpunk-grid-item">
+                <div class="cyberpunk-icon">🔍</div>
+                <h3>Transparency</h3>
+                <p>We advocate for open source solutions, algorithmic transparency, and the right to know how the systems affecting our lives operate.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Ex Machina Parlor © 2025. All systems operational.</p>
+    </footer>
+</div>
+
+<!-- ABOUT CONTENT -->
+<div id="about-content">
+    <header>
+        <div class="page-title-container">
+            <h1 class="site-title">
+                <span class="glitch" data-text="Ex Machina Parlor">Ex Machina Parlor</span>
+            </h1>
+            <h2 class="subheading">Technology . Freedom . Privacy</h2>
+            <h2 class="about-title">About Us</h2>
+            <nav>
+                <a href="#" id="nav-about-home">Home</a>
+            </nav>
+        </div>
+    </header>
+    <div class="cyberpunk-container">
+        <h2 class="cyberpunk-title">Local Philly Hackerspace</h2>
+        <p class="cyberpunk-intro">
             At the Ex Machina Parlor, we welcome individuals from all backgrounds who have a passion for technology,
-            whether you’re a seasoned hacker, a complete science enthusiast, or simply someone curious about cybersecurity
+            whether you're a seasoned hacker, a complete science enthusiast, or simply someone curious about cybersecurity
             and emerging tech.
         </p>
-        <p>
+        <p class="cyberpunk-intro">
+            <span class="highlight">Freaks, Geeks, Weirdos, and Hackers of all kinds are welcome</span> in our community-driven space
+            located at <span class="highlight">319 N 11th St Room 501, Philadelphia, PA 19107</span>.
+        </p>
+        <p class="cyberpunk-intro">
             We are a dynamic community focused on advancing knowledge in technology, cybersecurity, and the future of the internet.
             We provide a platform for invention, collaboration, and innovation, adhering to a strong ethical framework.
             While we support technological exploration, we emphasize that all activities must align with legal and ethical standards.
         </p>
-        <p>
-            We do not endorse illegal activities and are not responsible for the misuse of any information or technology
-            shared through our platform.
+        <div class="cyberpunk-grid">
+            <div class="cyberpunk-grid-item">
+                <div class="cyberpunk-icon">🔬</div>
+                <h3>Hacking & Learning</h3>
+                <p>A space for hands-on exploration, experimentation, and skill development in areas like cybersecurity, robotics, and emerging technologies.</p>
+            </div>
+            <div class="cyberpunk-grid-item">
+                <div class="cyberpunk-icon">👥</div>
+                <h3>Community</h3>
+                <p>Join a diverse group of technologists, makers, and security enthusiasts sharing knowledge and collaborating on innovative projects.</p>
+            </div>
+            <div class="cyberpunk-grid-item">
+                <div class="cyberpunk-icon">🚀</div>
+                <h3>Innovation</h3>
+                <p>Push the boundaries of technology with cutting-edge tools, from 3D printing to advanced wireless security testing equipment.</p>
+            </div>
+            <div class="cyberpunk-grid-item">
+                <div class="cyberpunk-icon">🛡️</div>
+                <h3>Ethics</h3>
+                <p>We emphasize ethical hacking, responsible disclosure, and using technology to empower rather than exploit. All activities must align with legal standards.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Ex Machina Parlor © 2025. All systems operational.</p>
+    </footer>
+</div>
+
+<!-- PROJECTS CONTENT -->
+<div id="projects-content">
+    <header>
+        <div class="page-title-container">
+            <h1 class="site-title">
+                <span class="glitch" data-text="Ex Machina Parlor">Ex Machina Parlor</span>
+            </h1>
+            <h2 class="subheading">Build . Hack . Secure</h2>
+            <h2 class="projects-title">Projects</h2>
+            <nav>
+                <a href="#" id="nav-projects-home">Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Robotic Hacking Units Section -->
+    <div class="cyberpunk-container projects-section">
+        <h2 class="cyberpunk-title">Robotic Hacking Units</h2>
+        <p class="cyberpunk-intro">
+            Explore our cybersecurity robotics projects, including the <span class="highlight">Tengu Marauder</span> and
+            the <span class="highlight">Strix Interceptor</span>:
         </p>
-    </section>
+
+        <div class="project-cards">
+            <div class="project-card">
+                <div class="project-header">
+                    <h3 class="project-title">Tengu Marauder</h3>
+                    <div class="project-status active">Active</div>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        The Tengu Marauder is a mobile platform based on the ESP32 microcontroller,
+                        combining WiFi network security features with advanced robotic control and
+                        video streaming. It supports WiFi scanning, deauthentication attacks, and
+                        packet sniffing. The project integrates ROS2 for movement and uses the ESP32-CAM
+                        for live video streaming.
+                    </p>
+                    <div class="project-tech-stack">
+                        <span class="tech-tag">ESP32</span>
+                        <span class="tech-tag">WiFi</span>
+                        <span class="tech-tag">ROS2</span>
+                        <span class="tech-tag">Robotics</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://infocondb.org/con/def-con/def-con-32/tengu-marauder" class="project-link" target="_blank">Learn more at: Tengu Marauder at DEFCON 32</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <h3 class="project-title">Strix Interceptor</h3>
+                    <div class="project-status active">Active</div>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        The Strix Interceptor is an open-source UAV designed for drone interception
+                        and defense against RF systems. It features autonomous flight, stability
+                        control, and RF spoofing using components like the Pixhawk Flight Controller,
+                        Raspberry Pi, and HackRF One.
+                    </p>
+                    <div class="project-tech-stack">
+                        <span class="tech-tag">UAV</span>
+                        <span class="tech-tag">Pixhawk</span>
+                        <span class="tech-tag">HackRF</span>
+                        <span class="tech-tag">RF</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://infocondb.org/con/def-con/def-con-31/strix-interceptor" class="project-link" target="_blank">Learn more at: Strix Interceptor at DEFCON 31</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lab Equipment Section -->
+    <div class="cyberpunk-container projects-section">
+        <h2 class="cyberpunk-title">Ex Machina Parlor Lab</h2>
+        <p class="cyberpunk-intro">
+            Our hackerspace, the Ex Machina Parlor Lab, is equipped with cutting-edge
+            tools and resources for various projects, from prototyping to advanced
+            security research. Here's what we have:
+        </p>
+
+        <div class="lab-equipment-grid">
+            <div class="equipment-item">
+                <div class="equipment-icon">🖨️</div>
+                <h3>3D Printers</h3>
+                <p>For rapid prototyping and designing custom components.</p>
+            </div>
+            <div class="equipment-item">
+                <div class="equipment-icon">🔌</div>
+                <h3>Soldering Tools</h3>
+                <p>High-quality soldering stations for assembling and repairing electronics.</p>
+            </div>
+            <div class="equipment-item">
+                <div class="equipment-icon">⚡</div>
+                <h3>Electrical Engineering Tools</h3>
+                <p>A variety of multimeters, oscilloscopes, and power supplies for circuit design and testing.</p>
+            </div>
+            <div class="equipment-item">
+                <div class="equipment-icon">📡</div>
+                <h3>Wireless Security Testing Devices</h3>
+                <p>Tools for auditing wireless networks, including WiFi and RF-based systems.</p>
+            </div>
+            <div class="equipment-item">
+                <div class="equipment-icon">🌐</div>
+                <h3>Closed Network Lab</h3>
+                <p>A large virtual environment that simulates real-world networks for safe, isolated testing.</p>
+            </div>
+            <div class="equipment-item">
+                <div class="equipment-icon">🛡️</div>
+                <h3>Red, Blue, and Purple Teaming Tools</h3>
+                <p>A simulated environment with cybersecurity tools for offense, defense, and collaborative testing.</p>
+            </div>
+            <div class="equipment-item">
+                <div class="equipment-icon">🔄</div>
+                <h3>Application CI/CD Tools</h3>
+                <p>Integrated tools for continuous integration and delivery, perfect for developing secure software pipelines.</p>
+            </div>
+            <div class="equipment-item">
+                <div class="equipment-icon">🏆</div>
+                <h3>Previous Projects</h3>
+                <p>Built during conferences and talks, such as DEFCON, showcasing innovation in security, networking, and robotics.</p>
+            </div>
+        </div>
+
+        <p class="cyberpunk-outro">
+            Whether you're into hardware hacking, cybersecurity, or software development,
+            the Ex Machina Parlor Lab is the perfect place to collaborate and build
+            cutting-edge projects.
+        </p>
+
+        <div class="button-container">
+            <a href="#" class="cyberpunk-button">Start a Project</a>
+            <a href="#" class="cyberpunk-button visit-us">Book Lab Time</a>
+        </div>
+    </div>
+
+    <!-- Previous Projects Gallery -->
+    <div class="cyberpunk-container projects-section">
+        <h2 class="cyberpunk-title">Previous Projects</h2>
+        <p class="cyberpunk-intro">
+            Check out some of our completed and ongoing projects from our community:
+        </p>
+
+        <div class="projects-gallery">
+            <!-- More project cards would go here -->
+            <div class="gallery-card">
+                <div class="gallery-card-header">
+                    <span class="project-category">Network Security</span>
+                </div>
+                <h3>WiFi Pineapple Extensions</h3>
+                <p>Custom modules for the Hak5 WiFi Pineapple that extend its capabilities for educational security testing.</p>
+            </div>
+            <div class="gallery-card">
+                <div class="gallery-card-header">
+                    <span class="project-category">Hardware</span>
+                </div>
+                <h3>Badge Life: Philly Edition</h3>
+                <p>Interactive electronic badges with games and security challenges created for local tech conferences.</p>
+            </div>
+            <div class="gallery-card">
+                <div class="gallery-card-header">
+                    <span class="project-category">Software</span>
+                </div>
+                <h3>Open CTF Platform</h3>
+                <p>A customizable platform for hosting Capture The Flag competitions with real-time scoring and challenge management.</p>
+            </div>
+            <div class="gallery-card">
+                <div class="gallery-card-header">
+                    <span class="project-category">IoT Security</span>
+                </div>
+                <h3>Sentinel Framework</h3>
+                <p>A comprehensive testing suite for identifying and documenting vulnerabilities in IoT devices and smart home systems.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cyberpunk-container projects-section">
+        <h2 class="cyberpunk-title">Join a Project</h2>
+        <p class="cyberpunk-intro">
+            Interested in working on cutting-edge security and technology projects? Join our community!
+        </p>
+    </div>
+
+    <footer>
+        <p>Ex Machina Parlor © 2025. All systems operational.</p>
+    </footer>
+</div>
+
+<!-- EVENTS CONTENT -->
+<div id="events-content">
+    <header>
+        <div class="page-title-container">
+            <h1 class="site-title">
+                <span class="glitch" data-text="Ex Machina Parlor">Ex Machina Parlor</span>
+            </h1>
+            <h2 class="subheading">Join . Learn . Hack</h2>
+            <h2 class="events-title">Upcoming Events</h2>
+            <nav>
+                <a href="#" id="nav-events-home">Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Google Calendar -->
+    <div class="calendar-container">
+        <div class="calendar-wrapper">
+            <iframe src="https://calendar.google.com/calendar/embed?src=5b2744a038e16fed0727cbe46e08ba33c905b41e4b34ab287ae0dadfa91e8310%40group.calendar.google.com&ctz=America%2FNew_York&showTitle=0&showPrint=0&showCalendars=0"
+                    style="border: 0" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </div>
+
+    <!-- Tech Events Section -->
+    <div class="cyberpunk-container tech-events-section">
+        <h2 class="cyberpunk-title">Philly <span class="highlight">Tech Events</span></h2>
+        <p class="cyberpunk-intro">
+            Discover the latest tech events, conferences, and meetups happening in <span class="highlight">Philadelphia</span>.
+            Join our community of hackers, makers, and tech enthusiasts!
+        </p>
+
+        <!-- Lu.ma Calendar -->
+        <div class="calendar-container">
+            <div class="calendar-wrapper luma-calendar">
+                <iframe
+                        src="https://lu.ma/embed/calendar/cal-sNMFhXgMsglHtBu/events"
+                        frameborder="0"
+                        allow="fullscreen"
+                        style="width: 100%; height: 450px; border: none;">
+                </iframe>
+            </div>
+        </div>
+
+        <!-- Tech Events Grid -->
+        <h3 class="tech-events-title">Featured Tech Events</h3>
+
+        <div class="tech-events-grid">
+            <!-- Event 1 -->
+            <div class="tech-event-card">
+                <div class="event-header-bar">
+                    <div class="event-date">MAY 15, 2025</div>
+                    <div class="event-time">7:00 PM - 9:00 PM</div>
+                </div>
+                <div class="event-content">
+                    <h3 class="event-title">Intro to Cybersecurity</h3>
+                    <p class="event-description">Learn the basics of cybersecurity, including common vulnerabilities, threat models, and how to protect yourself online. Perfect for beginners!</p>
+                    <div class="event-footer">
+                        <a href="#" class="event-register">Register</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event 2 -->
+            <div class="tech-event-card">
+                <div class="event-header-bar">
+                    <div class="event-date">MAY 22, 2025</div>
+                    <div class="event-time">6:30 PM - 9:30 PM</div>
+                </div>
+                <div class="event-content">
+                    <h3 class="event-title">Ethical Hacking Workshop</h3>
+                    <p class="event-description">Hands-on workshop exploring ethical hacking techniques. Bring your laptop! Prior programming experience recommended.</p>
+                    <div class="event-footer">
+                        <a href="#" class="event-register">Register</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event 3 -->
+            <div class="tech-event-card">
+                <div class="event-header-bar">
+                    <div class="event-date">JUN 05, 2025</div>
+                    <div class="event-time">7:00 PM - 8:30 PM</div>
+                </div>
+                <div class="event-content">
+                    <h3 class="event-title">AI Safety & Ethics Panel</h3>
+                    <p class="event-description">Join our expert panel discussing the ethical implications and safety concerns of advanced AI systems in today's society.</p>
+                    <div class="event-footer">
+                        <a href="#" class="event-register">Register</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Special Event -->
+            <div class="tech-event-card special">
+                <div class="event-header-bar">
+                    <div class="event-date">JUL 10-12, 2025</div>
+                    <div class="event-time">All Day Event</div>
+                </div>
+                <div class="event-content">
+                    <h3 class="event-title">Philly Hackers Weekend</h3>
+                    <p class="event-description">Our annual weekend hackathon! Three days of hacking, workshops, competitions, and networking with the local tech community. Limited spots available - register early!</p>
+                    <div class="event-footer">
+                        <a href="#" class="event-register">Early Bird Registration</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Event Proposal Section -->
+    <div class="cyberpunk-container event-proposal-section">
+        <h3>Have an event idea?</h3>
+        <p>We're always looking for new workshop topics and events. If you'd like to host an event or suggest a topic, let us know!</p>
+        <a href="#" class="event-proposal-button">Propose an Event</a>
+    </div>
+
     <footer>
         <p>Ex Machina Parlor © 2025. All systems operational.</p>
     </footer>
